@@ -28,6 +28,17 @@ html[data-theme="dark"] {
   margin-right: 0.5em;
 }
 
+/* -- Footer visit counter --------------------------------------------------- */
+.page__footer-visits {
+  margin-top: 0.5em;
+
+  img {
+    height: 20px;
+    vertical-align: middle;
+    border-radius: 3px;
+  }
+}
+
 /* -- Section headings ----------------------------------------------------
    Applied via kramdown IAL, e.g.  ## Education\n{: .section-heading}
    Small uppercase eyebrow label with a thin accent underline, used instead
