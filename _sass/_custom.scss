@@ -1,0 +1,133 @@
+/* ==========================================================================
+   CUSTOM OVERRIDES — refined slate/blue accent + editorial section styling
+   ========================================================================== */
+
+/* -- Accent palette (overrides the stock teal) -------------------------- */
+:root {
+  --global-base-color                 : #2c3e50;
+  --global-link-color                 : #3a6ea5;
+  --global-link-color-hover           : #24435f;
+  --global-link-color-visited         : #5c85ac;
+  --global-masthead-link-color-hover  : #2c3e50;
+}
+
+html[data-theme="dark"] {
+  --global-base-color                 : #7ab3e0;
+  --global-link-color                 : #7ab3e0;
+  --global-link-color-hover           : #a8cdf0;
+  --global-link-color-visited         : #5c85ac;
+  --global-masthead-link-color-hover  : #7ab3e0;
+}
+
+/* -- Masthead logo --------------------------------------------------------- */
+.masthead__logo {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 0.5em;
+}
+
+/* -- Section headings ----------------------------------------------------
+   Applied via kramdown IAL, e.g.  ## Education\n{: .section-heading}
+   Small uppercase eyebrow label with a thin accent underline, used instead
+   of emoji headers for a more editorial/professional look. */
+.section-heading {
+  margin-top: 2.2em;
+  margin-bottom: 0.9em;
+  font-family: $sans-serif;
+  font-size: $type-size-5;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--global-text-color);
+  padding-bottom: 0.45em;
+  border-bottom: 2px solid var(--global-base-color);
+  display: inline-block;
+}
+
+/* -- Tag pills (Research Interests) -------------------------------------- */
+.tag-pill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  list-style: none;
+  margin: 0 0 1.5em;
+  padding: 0;
+}
+
+.tag-pill {
+  display: inline-block;
+  padding: 0.35em 0.9em;
+  border-radius: 999px;
+  border: 1px solid var(--global-border-color);
+  background-color: var(--global-code-background-color);
+  color: var(--global-code-text-color);
+  font-size: $type-size-6;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* -- Timeline (Education) ------------------------------------------------- */
+.timeline {
+  position: relative;
+  margin: 0 0 1.8em;
+  padding-left: 1.6em;
+  border-left: 2px solid var(--global-border-color);
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 1.4em;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: -1.98em;
+    top: 0.3em;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--global-base-color);
+    border: 2px solid var(--global-bg-color);
+  }
+}
+
+.timeline-item__title {
+  margin: 0 0 0.15em;
+  font-weight: 700;
+  color: var(--global-text-color);
+}
+
+.timeline-item__meta {
+  margin: 0 0 0.3em;
+  font-size: $type-size-6;
+  color: var(--global-text-color-light);
+}
+
+.timeline-item__desc {
+  margin: 0;
+  font-size: $type-size-6;
+}
+
+/* -- Card styling for archive items (Projects / Talks / Publications) ---- */
+.page__content .archive__item {
+  padding: 1em 1.2em;
+  margin-bottom: 1em;
+  border: 1px solid var(--global-border-color);
+  border-left: 3px solid var(--global-base-color);
+  border-radius: $border-radius;
+  transition: $global-transition;
+
+  &:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  }
+
+  .archive__item-title {
+    margin-top: 0;
+  }
+}

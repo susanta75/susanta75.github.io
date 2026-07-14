@@ -11,7 +11,7 @@ locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title: "Susanta Khamrui"
 name: &name "Susanta Khamrui"
-description: &description "PhD Aspirant | Computer Vision & Deep Learning | Medical Image Analysis"
+description: &description "PhD Student | LLM Reasoning & Verification | Neuro-Symbolic AI"
 
 url: https://susanta75.github.io
 repository: "susanta75/susanta75.github.io"
@@ -22,10 +22,10 @@ repository: "susanta75/susanta75.github.io"
 author:
   avatar           : "susanta.png"
   name             : "Susanta Khamrui"
-  bio              : "M.Tech CSE (Data Science)"
-  location         : "India"
-  employer         : "IIITDM Jabalpur"
-  email            : "susanta@iiitdmj.ac.in"
+  bio              : "PhD Student, CSE, IIT Kharagpur"
+  location         : "Kharagpur, India"
+  employer         : "IIT Kharagpur"
+  email            : "skhamrui2002@gmail.com"
 
   # Academic websites
   academia         : # URL
