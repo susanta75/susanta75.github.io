@@ -10,48 +10,80 @@ redirect_from:
 
 {% include base_path %}
 
-Hello, I am **Susanta Khamrui**, a PhD student in the **Department of Computer Science & Engineering** at **IIT Kharagpur**, where I work in the [**Tr²AIL Lab**](https://adityasomak.github.io/research/) under the supervision of [**Dr. Somak Aditya**](https://adityasomak.github.io/). My research focuses on the **verification of large language models (LLMs)** — building tools and methods to reason about and validate LLM behavior as part of the lab's broader mission of transparent, human-aware AI through logic and reasoning.
+Hello, I am **Susanta Khamrui**, an aspiring PhD student working in **Computer Vision and Medical Image Analysis**. I recently completed my **M.Tech in Computer Science & Engineering (Data Science)** at **PDPM IIITDM Jabalpur** (CGPA: 8.7/10), where I worked under [**Dr. Ayan Seal**](https://scholar.google.co.in/citations?user=n0lOKiAAAAAJ&hl=en) on **attention-driven, multi-modal fusion architectures** for polyp segmentation in colonoscopy images (TAP-FuseNet, BAHNet, ADPNet), and assisted with studies on **visual saliency and attention mechanisms**.
 
-Before starting my PhD, I completed my **M.Tech in Computer Science & Engineering (Data Science)** at **IIITDM Jabalpur**, where I worked under [**Dr. Ayan Seal**](https://scholar.google.co.in/citations?user=n0lOKiAAAAAJ&hl=en) on **polyp segmentation** in colonoscopy images and assisted with studies on **salient object detection**.
+My research centers on designing neural architectures that fuse heterogeneous feature streams to detect small, visually subtle structures that standard models under-detect, while adapting large foundation models under tight compute and data constraints. I am motivated to build **explainable, trustworthy computer vision systems** reliable enough for high-stakes deployment, and I am now looking for **PhD positions** to pursue this research further.
 
 <hr />
 
 <h2 id="interests" class="section-heading">Research Interests</h2>
 
 <ul class="tag-pill-list">
-  <li class="tag-pill">LLM Verification &amp; Reasoning</li>
-  <li class="tag-pill">Neuro-Symbolic AI</li>
-  <li class="tag-pill">Computer Vision</li>
-  <li class="tag-pill">Medical Image Analysis</li>
+  <li class="tag-pill">Medical &amp; Clinical Computer Vision</li>
+  <li class="tag-pill">Attention-Driven Fusion</li>
+  <li class="tag-pill">Explainable &amp; Trustworthy AI</li>
+  <li class="tag-pill">Foundation Model Adaptation</li>
 </ul>
 
 <h2 id="education" class="section-heading">Education</h2>
 
 <div class="timeline">
   <div class="timeline-item">
-    <p class="timeline-item__title">PhD in Computer Science &amp; Engineering</p>
-    <p class="timeline-item__meta">IIT Kharagpur &middot; July 2026 &ndash; Present</p>
-    <p class="timeline-item__desc"><a href="https://adityasomak.github.io/research/">Tr&sup2;AIL Lab</a>, advised by <a href="https://adityasomak.github.io/">Dr. Somak Aditya</a>. Focus: verification and reasoning over large language models.</p>
-  </div>
-  <div class="timeline-item">
     <p class="timeline-item__title">M.Tech in Computer Science &amp; Engineering (Data Science)</p>
-    <p class="timeline-item__meta">IIITDM Jabalpur &middot; 2024 &ndash; 2026</p>
-    <p class="timeline-item__desc">Advised by <a href="https://scholar.google.co.in/citations?user=n0lOKiAAAAAJ&hl=en">Dr. Ayan Seal</a>. Thesis on polyp segmentation for medical imaging.</p>
+    <p class="timeline-item__meta">PDPM IIITDM Jabalpur &middot; August 2024 &ndash; June 2026</p>
+    <p class="timeline-item__desc">CGPA: 8.7/10. Advised by <a href="https://scholar.google.co.in/citations?user=n0lOKiAAAAAJ&hl=en">Dr. Ayan Seal</a>. Thesis: <em>Representation Learning via Hybrid Fusion Architectures for Visual Segmentation</em>.</p>
   </div>
   <div class="timeline-item">
     <p class="timeline-item__title">B.Tech in Electronics &amp; Communication Engineering</p>
-    <p class="timeline-item__meta">Dr. B. C. Roy Engineering College, Durgapur &middot; 2019 &ndash; 2023</p>
+    <p class="timeline-item__meta">Dr. B. C. Roy Engineering College, Durgapur (MAKAUT) &middot; August 2019 &ndash; June 2023</p>
+    <p class="timeline-item__desc">CGPA: 8.5/10. Focus: Digital Signal Processing, Probability &amp; Statistics, Engineering Mathematics.</p>
   </div>
 </div>
 
 <h2 id="experience" class="section-heading">Experience</h2>
 
-- **Graduate Researcher**, [Tr²AIL Lab](https://adityasomak.github.io/research/), IIT Kharagpur — *July 2026–Present*
-  - Working on verification and reasoning over LLMs under [Dr. Somak Aditya](https://adityasomak.github.io/).
-- **M.Tech Thesis**, IIITDM Jabalpur — *Completed, 2026*
-  - Polyp segmentation for medical imaging (TAP-FuseNet, BAHNet).
-- **Research Assistant**, IIITDM Jabalpur — *Completed*
-  - Worked on salient object detection.
+<div class="timeline">
+  <div class="timeline-item">
+    <p class="timeline-item__title">Attention-Driven Fusion Architectures for Medical Image Segmentation (M.Tech Thesis)</p>
+    <p class="timeline-item__meta">PDPM IIITDM Jabalpur &middot; February 2025 &ndash; June 2026</p>
+    <p class="timeline-item__desc">Engineered TAP-FuseNet, a hybrid architecture using Transformer attention to fuse multiple feature streams for segmenting small, visually subtle targets (e.g. early-stage polyps), and adapted large foundation models via frozen-encoder strategies to keep compute costs low. Advised by <a href="https://scholar.google.co.in/citations?user=n0lOKiAAAAAJ&hl=en">Dr. Ayan Seal</a>.</p>
+  </div>
+  <div class="timeline-item">
+    <p class="timeline-item__title">Visual Saliency &amp; Attention Mechanisms (Research Assistant)</p>
+    <p class="timeline-item__meta">PDPM IIITDM Jabalpur &middot; August 2024 &ndash; January 2025</p>
+    <p class="timeline-item__desc">Implemented multi-scale attention mechanisms and pyramidal hierarchies for efficient, explainable saliency detection. Advised by <a href="https://scholar.google.co.in/citations?user=n0lOKiAAAAAJ&hl=en">Dr. Ayan Seal</a>.</p>
+  </div>
+</div>
+
+<h2 id="skills" class="section-heading">Skills</h2>
+
+<p class="skills-group__label">Languages &amp; Tools</p>
+<ul class="tag-pill-list">
+  <li class="tag-pill">Python</li>
+  <li class="tag-pill">C++</li>
+  <li class="tag-pill">Java</li>
+  <li class="tag-pill">Git &amp; GitHub</li>
+  <li class="tag-pill">Linux</li>
+  <li class="tag-pill">LaTeX</li>
+</ul>
+
+<p class="skills-group__label">Machine Learning &amp; Deep Learning</p>
+<ul class="tag-pill-list">
+  <li class="tag-pill">PyTorch</li>
+  <li class="tag-pill">Attention Mechanisms</li>
+  <li class="tag-pill">Multi-Modal Fusion</li>
+  <li class="tag-pill">Foundation Model Adaptation</li>
+  <li class="tag-pill">Transformers</li>
+  <li class="tag-pill">Medical Image Segmentation</li>
+</ul>
+
+<p class="skills-group__label">Signal &amp; Image Processing</p>
+<ul class="tag-pill-list">
+  <li class="tag-pill">DSP</li>
+  <li class="tag-pill">NumPy</li>
+  <li class="tag-pill">SciPy</li>
+  <li class="tag-pill">Pandas</li>
+</ul>
 
 <h2 id="highlights" class="section-heading">Highlights</h2>
 
@@ -60,7 +92,7 @@ Before starting my PhD, I completed my **M.Tech in Computer Science & Engineerin
 <h2 id="contact" class="section-heading">Contact</h2>
 
 - Email: [skhamrui2002@gmail.com](mailto:skhamrui2002@gmail.com)
-- Location: Kharagpur, India
+- Location: Medinipur, West Bengal, India
 
 <hr />
 

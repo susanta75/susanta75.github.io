@@ -79,6 +79,20 @@ html[data-theme="dark"] {
   letter-spacing: 0.02em;
 }
 
+/* -- Skills group labels (Skills) ----------------------------------------- */
+.skills-group__label {
+  margin: 1.2em 0 0.5em;
+  font-weight: 700;
+  font-size: $type-size-6;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--global-text-color-light);
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
 /* -- Timeline (Education) ------------------------------------------------- */
 .timeline {
   position: relative;

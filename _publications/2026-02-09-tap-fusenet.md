@@ -1,11 +1,11 @@
 ---
-title: "TAP-FuseNet: Task-Aware Progressive Fusion Network for Small Polyp Segmentation"
+title: "An Instrument for Small Polyp Localization in Colonoscopy Images using a Task-Aware Progressive Fusion Network"
 collection: publications
 permalink: /publication/tap-fusenet/
 date: 2026-02-09
-venue: "IEEE Transactions on Instrumentation and Measurement"
+venue: "IEEE Transactions on Circuits and Systems for Video Technology"
 excerpt: "Status: **Under review**."
-# citation: "Susanta Khamrui, Ayan Seal. \"TAP-FuseNet: Task-Aware Progressive Fusion Network for Small Polyp Segmentation.\" Submitted to IEEE Transactions on Instrumentation and Measurement, under review."
+citation: "S. Khamrui, A. Seal, A. K. Gupta, M. Penhaker, and O. Krejcar. \"An Instrument for Small Polyp Localization in Colonoscopy Images using a Task-Aware Progressive Fusion Network.\" Submitted to IEEE Transactions on Circuits and Systems for Video Technology, under review."
 ---
 
 Status: **Under review**.
